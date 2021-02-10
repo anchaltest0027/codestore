@@ -1,0 +1,47 @@
+<div class="container">
+  <button class="btn btn-primary" (click)="redirect()">Redirect to Calculator</button>
+  <div class="row">
+    <div class="col-2">
+      <p id="placeholder1">
+
+      </p>
+      <button id="button" (click)="dice1()">Roll Dice 1</button>
+    </div>
+    <div class="col-2">
+      <p id="placeholder2">
+
+      </p>
+      <button id="button" (click)="dice2()">Roll Dice 2</button>
+    </div>
+    <div class="col-2">
+
+      <p id="placeholder3">
+
+      </p>
+      <button id="button" (click)="dice3()">Roll Dice 3</button>
+    </div>
+    <div class="col-2">
+      <p id="placeholder4">
+      </p>
+      <button id="button" (click)="dice4()">Roll Dice 4</button>
+    </div>
+    <div class="col-2">
+      <p id="placeholder5">
+
+      </p>
+      <button id="button" (click)="dice5()">Roll Dice 5</button>
+    </div>
+  </div>
+  <div class="row" style="margin-top:20px;">
+    <div class="col-6">
+      <button class="btn btn-primary" (click)="getSum()">Get Sum</button>
+    </div>
+    <div class="col-6" style="margin-top:10px;font-weight:600">
+      Sum:{{sum}}
+    </div>
+  </div>
+</div>
+
+
+
+
